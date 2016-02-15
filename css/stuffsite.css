@@ -80,6 +80,10 @@ p {
   margin-left: 0;
 }
 
+#drop {
+  display: none;
+}
+
 }
 
 /* ----------------- End Grid for medium break point ----------------- */
@@ -88,7 +92,7 @@ p {
 
 /* ----------------- Start Grid for smallest break point ----------------- */
 
-@media (min-width: 590px) and (max-width: 815px) {
+@media (max-width: 589px) {
 
 .container {
   position: relative;
@@ -104,6 +108,11 @@ p {
   float: left;
   box-sizing: border-box;
 }
+
+#drop {
+  display: none;
+}
+
 
 }
 
